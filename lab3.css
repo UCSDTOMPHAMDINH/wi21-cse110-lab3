@@ -1,0 +1,76 @@
+body {
+    background-color: aquamarine;
+    border-style: solid;
+    border-width: 1cm;
+    border-color: beige;
+    border-radius: 0cm;
+    font-size: 40px;
+    line-height: 1.5em; 
+    max-width: 90%;
+    display: block;
+    position: relative;
+    }
+    @media only screen and (max-width: 600px) {
+        body{
+            background-color: purple;
+        }
+h1{
+    text-align: center;
+    font-size: 32px;
+    line-height: 2em;
+    position: sticky;
+}
+h2{
+    display: inline;
+    font-size: 36px;
+    line-height: 3vw ;
+}
+
+h3{
+    text-decoration: orange;
+}
+
+.flex-container {
+    display: flex;
+
+    flex-flow: row wrap-reverse;
+
+    justify-content: center;
+
+    padding: 0cm;
+    margin: 0cm;
+    list-style: none;
+}
+
+.flex-item {
+  background: rgb(247, 3, 255);
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 40px 50px auto 50px 40px;
+    grid-row: 25% 50% 25%;
+
+}
+
+.item-a {
+    grid-column-start: 2;
+    grid-column-end: auto;
+    grid-row-start: 1;
+}
+
+.item-b {
+  grid-column-start: 1;
+  grid-column-end: span col4-start;
+  grid-row-start: 2;
+  grid-row-end: span 1;
+}
