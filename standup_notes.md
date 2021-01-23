@@ -1,6 +1,6 @@
----
+- - -
 title: "Tom Pham Dinh"
----
+- - -
 
 - I did cse167 PA yesterday and studied
 - Need to do this lab today
