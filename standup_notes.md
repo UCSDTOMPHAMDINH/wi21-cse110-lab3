@@ -1,5 +1,5 @@
 - - -
-title: "Tom Pham Dinh"
+"Tom Pham Dinh"
 - - -
 
 - I did cse167 PA yesterday and studied
